@@ -1,0 +1,60 @@
+.banner {
+  position: relative;
+
+  padding-top: 172px;
+  padding-right: 64%;
+}
+
+.banner__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__city {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  font-family: $ff-alternative;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.banner__title {
+  margin: 0;
+  margin-bottom: 80px;
+  padding: 0;
+
+  font-weight: 600;
+  font-size: 92px;
+  line-height: 110px;
+  font-family: $ff-alternative;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.banner__btn {
+  align-self: flex-end;
+  padding: 24px 56px;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  background-color: transparent;
+  border: 4px solid $color-default-white;
+}
+
+.banner__image {
+  position: absolute;
+  top: -6px;
+  left: 37%;
+}
